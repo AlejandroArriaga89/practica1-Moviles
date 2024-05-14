@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ImageShoes {
-  ImageShoes(
+class ImageCars {
+  ImageCars(
     this.image,
     this.color,
   );
@@ -9,8 +9,8 @@ class ImageShoes {
   final Color color;
 }
 
-class Shoes {
-  Shoes(
+class Cars {
+  Cars(
     this.name,
     this.category,
     this.price,
@@ -21,5 +21,5 @@ class Shoes {
   final String category;
   final String price;
   final int punctuation;
-  final List<ImageShoes> listImage;
+  final List<ImageCars> listImage;
 }

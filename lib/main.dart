@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Shoes',
       theme: ThemeData.dark(),
-      home: const HomePageShoes(),
+      home: const HomePageCars(),
       debugShowCheckedModeBanner: false,
     );
   }

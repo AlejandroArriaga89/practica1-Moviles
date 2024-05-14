@@ -3,19 +3,19 @@ import 'package:practica1/models/shoes.dart';
 import 'package:practica1/widgets/custom_button.dart';
 import 'package:practica1/widgets/transition.dart';
 
-class DetailsShoesPage extends StatefulWidget {
-  const DetailsShoesPage({
+class DetailsCarsPage extends StatefulWidget {
+  const DetailsCarsPage({
     super.key,
     required this.shoes,
   });
 
-  final Shoes shoes;
+  final Cars shoes;
 
   @override
-  State<DetailsShoesPage> createState() => _DetailsShoesPageState();
+  State<DetailsCarsPage> createState() => _DetailsCarsPageState();
 }
 
-class _DetailsShoesPageState extends State<DetailsShoesPage> {
+class _DetailsCarsPageState extends State<DetailsCarsPage> {
   int valueIndexColor = 0;
   int valueIndexSize = 0;
 

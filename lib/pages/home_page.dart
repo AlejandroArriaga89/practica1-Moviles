@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:practica1/models/data.dart';
-import 'package:practica1/pages/details_shoes.dart';
+import 'package:practica1/pages/details_cars.dart';
 import 'package:practica1/widgets/custom_app_bar.dart';
 import 'package:practica1/widgets/custom_bottom_bar.dart';
 
-class HomePageShoes extends StatefulWidget {
-  const HomePageShoes({super.key});
+class HomePageCars extends StatefulWidget {
+  const HomePageCars({super.key});
 
   @override
-  State<HomePageShoes> createState() => _HomePageShoesState();
+  State<HomePageCars> createState() => _HomePageCarsState();
 }
 
-class _HomePageShoesState extends State<HomePageShoes> {
+class _HomePageCarsState extends State<HomePageCars> {
   final _pageController = PageController(viewportFraction: 0.75);
 
   double _currentPage = 0.0;
@@ -94,7 +94,7 @@ class _HomePageShoesState extends State<HomePageShoes> {
                   onTap: () {
                     Navigator.of(context).push(
                       PageRouteBuilder(pageBuilder: (context, animation, _) {
-                        return DetailsShoesPage(shoes: shoes);
+                        return DetailsCarsPage(shoes: shoes);
                       }),
                     );
                   },
